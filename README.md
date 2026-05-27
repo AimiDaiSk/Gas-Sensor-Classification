@@ -5,6 +5,8 @@
 ## 📋 项目简介
 
 本项目将气体传感器的时序信号转换为二维灰度图像，使用卷积神经网络（CNN）进行分类。这种方法能够有效捕捉传感器响应的时空特征，提高气体识别的准确率。
+<img width="1408" height="768" alt="EN" src="https://github.com/user-attachments/assets/64c4171b-747e-4f7c-9a61-3622a0a780c7" />
+
 
 ### 支持的气体类别
 
@@ -95,7 +97,12 @@ test_folder = "path/to/your/folder"
 训练完成后会生成以下可视化结果：
 
 - **训练曲线**：损失和准确率随epoch的变化
+-<img width="4170" height="1466" alt="曲线图" src="https://github.com/user-attachments/assets/d37a4f95-b706-4a65-a54c-25139a4598da" />
+
+
 - **混淆矩阵**：测试集的分类结果可视化
+- <img width="3387" height="2963" alt="混淆矩阵" src="https://github.com/user-attachments/assets/39400267-3f79-40f4-9055-df15f26eff0b" />
+
 
 ## 📁 项目结构
 
